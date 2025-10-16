@@ -1,17 +1,11 @@
 import java.util.Scanner;
 public class Main{
 public static void main(String[] args) {
-      Car car = new Car();
-      car.name = "Toyota";
-      car.model = "Camry";
-      car.color = "Black";
-      car.year = 2022;
-      car.probeg = 86000;
-        System.out.println(car.name);
-        System.out.println(car.model);
-        System.out.println(car.color);
-        System.out.println(car.year);
-        System.out.println(car.probeg);
+//      Student student = new Student("Elmirbek","Mannabov",21);
+//    System.out.println(student.firstName+"\n"+student.lastName+"\n"+student.age);
+
+    Phone phone = new Phone("Samsung","A5",128, 23700);
+    System.out.println(phone.namePhone+"\n"+phone.modelPhone+"\n"+phone.memory+"\n"+phone.price);
 }
 
 }
